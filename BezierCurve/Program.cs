@@ -49,7 +49,7 @@ namespace BezierCurve
             bezierCurve.GetAllPointsOnCurve();   
             foreach (var point in bezierCurve.Curve.PointsOnCurve)
             {
-                Console.WriteLine(point);
+                Console.WriteLine(string.Format("Time: {0}  Position:{1}", point.time, point.position) );
             }
 
             Console.ReadKey();

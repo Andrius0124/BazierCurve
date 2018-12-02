@@ -87,14 +87,14 @@ namespace BezierCurves
 
             for (int i = 0; i < customCurve.Curve.PointsOnCurve.Count; i++)
             {
-                int x = pic.Size.Width / 2 + (int) (customCurve.Curve.PointsOnCurve[i].X * scaleX);
-                int y = pic.Size.Height / 2 - (int) (customCurve.Curve.PointsOnCurve[i].Y * scaleY);
+                int x = pic.Size.Width / 2 + (int) (customCurve.Curve.PointsOnCurve[i].position.X * scaleX);
+                int y = pic.Size.Height / 2 - (int) (customCurve.Curve.PointsOnCurve[i].position.Y * scaleY);
                 
                 g.DrawRectangle(red,x-1,y-1,2,2);
                 if (i != customCurve.Curve.PointsOnCurve.Count - 1)
                 {
-                    int x1 = pic.Size.Width / 2 + (int) (customCurve.Curve.PointsOnCurve[i+1].X * scaleX);
-                    int y1 = pic.Size.Height / 2 - (int) (customCurve.Curve.PointsOnCurve[i+1].Y * scaleY);
+                    int x1 = pic.Size.Width / 2 + (int) (customCurve.Curve.PointsOnCurve[i+1].position.X * scaleX);
+                    int y1 = pic.Size.Height / 2 - (int) (customCurve.Curve.PointsOnCurve[i+1].position.Y * scaleY);
                     g.DrawLine(red,x,y,x1,y1);
                 }
             }

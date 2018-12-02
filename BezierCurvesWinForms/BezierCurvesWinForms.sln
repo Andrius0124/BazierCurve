@@ -1,15 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BezierCurves", "BezierCurves.csproj", "{41DBADD5-818E-4739-8F6D-8D6CB172536C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BezierCurves", "BezierCurves.csproj", "{E6E29914-1BD9-43A9-8F19-B313047B50DF}"
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B52D04EE-2313-49BE-A4C6-4290F460C625}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6E29914-1BD9-43A9-8F19-B313047B50DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E29914-1BD9-43A9-8F19-B313047B50DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E29914-1BD9-43A9-8F19-B313047B50DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E29914-1BD9-43A9-8F19-B313047B50DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

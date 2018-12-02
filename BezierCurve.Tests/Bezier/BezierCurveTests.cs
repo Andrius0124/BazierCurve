@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Numerics;
+using BezierCurve.Models;
 using Newtonsoft.Json;
 using Xunit;
 using static BezierCurve.Tests.Helpers.Helpers;
@@ -26,14 +27,38 @@ namespace BezierCurveTests.Bezier
             _bezier.Curve.NumberOfIntervals = 5;
             _bezier.GetAllPointsOnCurve();
             
-            var expected = new List<Vector2>()
+            var expected = new List<Vec2Time>()
             {
-                new Vector2(0f,0f),
-                new Vector2(0f,0.52f),
-                new Vector2(0f,1.76f),
-                new Vector2(0f,3.24f),
-                new Vector2(0f,4.48f),
-                new Vector2(0f,5f)
+                new Vec2Time()
+                {
+                    position = new Vector2(0f,0f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0f,0.52f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0f,1.76f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0f,3.24f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0f,4.48f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0f,5f),
+                    time = 0f
+                }
             };
             
             ComperVector2(expected,_bezier.Curve.PointsOnCurve,4);
@@ -49,14 +74,38 @@ namespace BezierCurveTests.Bezier
             _bezier.Curve.NumberOfIntervals = 5;
             _bezier.GetAllPointsOnCurve();
             
-            var expected = new List<Vector2>()
+            var expected = new List<Vec2Time>()
             {
-                new Vector2(0f,0f),
-                new Vector2(0.104f,0.104f),
-                new Vector2(0.352f,0.352f),
-                new Vector2(0.648f,0.648f),
-                new Vector2(0.896f,0.896f),
-                new Vector2(1f,1f)
+                new Vec2Time()
+                {
+                    position = new Vector2(0f,0f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0.104f,0.104f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0.352f,0.352f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0.648f,0.648f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(0.896f,0.896f),
+                    time = 0f
+                },
+                new Vec2Time()
+                {
+                    position = new Vector2(1f,1f),
+                    time = 0f
+                }
             };
             
             ComperVector2(expected,_bezier.Curve.PointsOnCurve,4);

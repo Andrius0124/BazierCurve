@@ -23,7 +23,11 @@ namespace BezierCurve.Logic
                 Vector2 d = Vector2.Lerp(a, b, i/(float)Curve.NumberOfIntervals);
                 Vector2 e = Vector2.Lerp(b, c, i/(float)Curve.NumberOfIntervals);
                 Vector2 pointOnCurve = Vector2.Lerp(d, e, i/(float)Curve.NumberOfIntervals);
-                Curve.PointsOnCurve.Add(pointOnCurve);
+                Curve.PointsOnCurve.Add(new Vec2Time()
+                {
+                    position = pointOnCurve,
+                    time = i/(float)Curve.NumberOfIntervals
+                });
             }
         }
         
