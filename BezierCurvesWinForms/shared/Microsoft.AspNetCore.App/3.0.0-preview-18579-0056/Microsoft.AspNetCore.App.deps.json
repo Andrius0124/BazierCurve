@@ -1,0 +1,1174 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0/win-x64",
+    "signature": "7da0a1ab5beee84a1029ca3bc3349f14b9a67331"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {},
+    ".NETCoreApp,Version=v3.0/win-x64": {
+      "Microsoft.AspNetCore.App/3.0.0-preview-18579-0056": {
+        "dependencies": {
+          "runtime.win-x64.Microsoft.AspNetCore.App": "3.0.0-preview-18579-0056"
+        }
+      },
+      "runtime.win-x64.Microsoft.AspNetCore.App/3.0.0-preview-18579-0056": {
+        "runtime": {
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Antiforgery.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.OAuth.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Authorization.Policy.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.CookiePolicy.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Cors.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.DataProtection.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.DataProtection.Extensions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Diagnostics.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Diagnostics.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.HostFiltering.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Hosting.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Html.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Http.Connections.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Http.Extensions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.HttpOverrides.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.HttpsPolicy.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Identity.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.JsonPatch.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Localization.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Localization.Routing.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Cors.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.DataAnnotations.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Formatters.Json.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Localization.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.RazorPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Razor.Runtime.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.ResponseCaching.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.ResponseCompression.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Rewrite.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Routing.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Routing.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Server.HttpSys.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Server.IIS.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Server.IISIntegration.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Server.Kestrel.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.Session.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.SignalR.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.SignalR.Common.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.SignalR.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.StaticFiles.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.WebSockets.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Ini.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.KeyPerFile.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Xml.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.DiagnosticAdapter.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Composite.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Hosting.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Identity.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Localization.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Logging.Configuration.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Logging.Console.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Logging.Debug.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Logging.EventSource.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Logging.TraceSource.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Options.DataAnnotations.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Extensions.WebEncoders.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18326"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Net.Http.Headers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.18333"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.1.20722"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Net.WebSockets.WebSocketProtocol.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Threading.Channels.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.7.18.57103"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/aspnetcorev2_inprocess.dll": {
+            "fileVersion": "13.0.18333.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.App/3.0.0-preview-18579-0056": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "microsoft.aspnetcore.app/3.0.0-preview-18579-0056"
+    },
+    "runtime.win-x64.Microsoft.AspNetCore.App/3.0.0-preview-18579-0056": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "",
+      "path": "runtime.win-x64.microsoft.aspnetcore.app/3.0.0-preview-18579-0056"
+    }
+  },
+  "runtimes": {
+    "win-arm": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win-arm64": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win-x64": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win-x86": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win": [
+      "any",
+      "base"
+    ],
+    "win-aot": [
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-arm-aot": [
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-arm64-aot": [
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-x64-aot": [
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win-x86-aot": [
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10": [
+      "win81",
+      "win8",
+      "win7",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-aot": [
+      "win10",
+      "win81-aot",
+      "win81",
+      "win8-aot",
+      "win8",
+      "win7-aot",
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-arm": [
+      "win10",
+      "win81-arm",
+      "win81",
+      "win8-arm",
+      "win8",
+      "win7-arm",
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-arm-aot": [
+      "win10-aot",
+      "win10-arm",
+      "win10",
+      "win81-arm-aot",
+      "win81-aot",
+      "win81-arm",
+      "win81",
+      "win8-arm-aot",
+      "win8-aot",
+      "win8-arm",
+      "win8",
+      "win7-arm-aot",
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-arm64": [
+      "win10",
+      "win81-arm64",
+      "win81",
+      "win8-arm64",
+      "win8",
+      "win7-arm64",
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-arm64-aot": [
+      "win10-aot",
+      "win10-arm64",
+      "win10",
+      "win81-arm64-aot",
+      "win81-aot",
+      "win81-arm64",
+      "win81",
+      "win8-arm64-aot",
+      "win8-aot",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-aot",
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-x64": [
+      "win10",
+      "win81-x64",
+      "win81",
+      "win8-x64",
+      "win8",
+      "win7-x64",
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-x64-aot": [
+      "win10-aot",
+      "win10-x64",
+      "win10",
+      "win81-x64-aot",
+      "win81-aot",
+      "win81-x64",
+      "win81",
+      "win8-x64-aot",
+      "win8-aot",
+      "win8-x64",
+      "win8",
+      "win7-x64-aot",
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-x86": [
+      "win10",
+      "win81-x86",
+      "win81",
+      "win8-x86",
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-x86-aot": [
+      "win10-aot",
+      "win10-x86",
+      "win10",
+      "win81-x86-aot",
+      "win81-aot",
+      "win81-x86",
+      "win81",
+      "win8-x86-aot",
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-aot": [
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-arm": [
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-arm-aot": [
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-arm64": [
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-arm64-aot": [
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-x64": [
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-x64-aot": [
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-x86": [
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-x86-aot": [
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8": [
+      "win7",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-aot": [
+      "win8",
+      "win7-aot",
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-arm": [
+      "win8",
+      "win7-arm",
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-arm-aot": [
+      "win8-aot",
+      "win8-arm",
+      "win8",
+      "win7-arm-aot",
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-arm64": [
+      "win8",
+      "win7-arm64",
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-arm64-aot": [
+      "win8-aot",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-aot",
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-x64": [
+      "win8",
+      "win7-x64",
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-x64-aot": [
+      "win8-aot",
+      "win8-x64",
+      "win8",
+      "win7-x64-aot",
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-x86": [
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-x86-aot": [
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81": [
+      "win8",
+      "win7",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-aot": [
+      "win81",
+      "win8-aot",
+      "win8",
+      "win7-aot",
+      "win7",
+      "win-aot",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-arm": [
+      "win81",
+      "win8-arm",
+      "win8",
+      "win7-arm",
+      "win7",
+      "win-arm",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-arm-aot": [
+      "win81-aot",
+      "win81-arm",
+      "win81",
+      "win8-arm-aot",
+      "win8-aot",
+      "win8-arm",
+      "win8",
+      "win7-arm-aot",
+      "win7-aot",
+      "win7-arm",
+      "win7",
+      "win-arm-aot",
+      "win-aot",
+      "win-arm",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-arm64": [
+      "win81",
+      "win8-arm64",
+      "win8",
+      "win7-arm64",
+      "win7",
+      "win-arm64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-arm64-aot": [
+      "win81-aot",
+      "win81-arm64",
+      "win81",
+      "win8-arm64-aot",
+      "win8-aot",
+      "win8-arm64",
+      "win8",
+      "win7-arm64-aot",
+      "win7-aot",
+      "win7-arm64",
+      "win7",
+      "win-arm64-aot",
+      "win-aot",
+      "win-arm64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-x64": [
+      "win81",
+      "win8-x64",
+      "win8",
+      "win7-x64",
+      "win7",
+      "win-x64",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-x64-aot": [
+      "win81-aot",
+      "win81-x64",
+      "win81",
+      "win8-x64-aot",
+      "win8-aot",
+      "win8-x64",
+      "win8",
+      "win7-x64-aot",
+      "win7-aot",
+      "win7-x64",
+      "win7",
+      "win-x64-aot",
+      "win-aot",
+      "win-x64",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-x86": [
+      "win81",
+      "win8-x86",
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-x86-aot": [
+      "win81-aot",
+      "win81-x86",
+      "win81",
+      "win8-x86-aot",
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ]
+  }
+}

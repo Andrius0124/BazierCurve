@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "dotnet-watch/3.0.0-preview-18579-0056": {
+        "runtime": {
+          "dotnet-watch.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-watch/3.0.0-preview-18579-0056": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

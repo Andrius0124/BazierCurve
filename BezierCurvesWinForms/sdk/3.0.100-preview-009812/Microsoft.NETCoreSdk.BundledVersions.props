@@ -1,0 +1,72 @@
+<!--
+***********************************************************************************************
+Microsoft.NETCoreSdk.BundledVersions.props
+
+WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have
+          created a backup copy.  Incorrect changes to this file will make it
+          impossible to load or build your projects from the command-line or the IDE.
+
+Copyright (c) .NET Foundation. All rights reserved.
+***********************************************************************************************
+-->
+<Project>
+  <PropertyGroup>
+    <NETCoreAppMaximumVersion>3.0</NETCoreAppMaximumVersion>
+    <BundledNETCoreAppTargetFrameworkVersion>3.0</BundledNETCoreAppTargetFrameworkVersion>
+    <BundledNETCoreAppPackageVersion>3.0.0-preview-27122-01</BundledNETCoreAppPackageVersion>
+    <UseBundledNETCoreAppPackageVersionAsDefaultNetCorePatchVersion>true</UseBundledNETCoreAppPackageVersionAsDefaultNetCorePatchVersion>
+    <BundledNETStandardTargetFrameworkVersion>2.0</BundledNETStandardTargetFrameworkVersion>
+    <BundledNETStandardPackageVersion>2.0.3</BundledNETStandardPackageVersion>
+    <BundledNETCorePlatformsPackageVersion>3.0.0-preview.18571.3</BundledNETCorePlatformsPackageVersion>
+    <BundledAspNetCoreAppTargetFrameworkVersion>3.0</BundledAspNetCoreAppTargetFrameworkVersion>
+    <BundledAspNetCoreAppPackageVersion>3.0.0-preview-18579-0056</BundledAspNetCoreAppPackageVersion>
+    <NETCoreSdkVersion>3.0.100-preview-009812</NETCoreSdkVersion>
+    <NETCoreSdkRuntimeIdentifier>win-x64</NETCoreSdkRuntimeIdentifier>
+    <_NETCoreSdkIsPreview>true</_NETCoreSdkIsPreview>
+
+    <AddDotnetfeedProjectSource Condition="'$(AddDotnetfeedProjectSource)' == ''">$(_NETCoreSdkIsPreview)</AddDotnetfeedProjectSource>
+    <RestoreAdditionalProjectSources Condition="'$(AddDotnetfeedProjectSource)' == 'true'">$(RestoreAdditionalProjectSources)
+https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json</RestoreAdditionalProjectSources>
+
+    <!-- Default patch versions for each minor version of ASP.NET Core -->
+    <DefaultPatchVersionForAspNetCoreAll2_1>2.1.1</DefaultPatchVersionForAspNetCoreAll2_1>
+    <DefaultPatchVersionForAspNetCoreApp2_1>2.1.1</DefaultPatchVersionForAspNetCoreApp2_1>
+
+    <!-- Latest patch versions for each minor version of .NET Core -->
+    <LatestPatchVersionForNetCore1_0 Condition="'$(LatestPatchVersionForNetCore1_0)' == ''">1.0.12</LatestPatchVersionForNetCore1_0>
+    <LatestPatchVersionForNetCore1_1 Condition="'$(LatestPatchVersionForNetCore1_1)' == ''">1.1.9</LatestPatchVersionForNetCore1_1>
+    <LatestPatchVersionForNetCore2_0 Condition="'$(LatestPatchVersionForNetCore2_0)' == ''">2.0.9</LatestPatchVersionForNetCore2_0>
+    <LatestPatchVersionForNetCore2_1 Condition="'$(LatestPatchVersionForNetCore2_1)' == ''">2.1.2</LatestPatchVersionForNetCore2_1>
+  </PropertyGroup>
+  <ItemGroup>
+    <ImplicitPackageReferenceVersion Include="Microsoft.NETCore.App" TargetFrameworkVersion="1.0" DefaultVersion="1.0.5" LatestVersion="1.0.13"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.NETCore.App" TargetFrameworkVersion="1.1" DefaultVersion="1.1.2" LatestVersion="1.1.10"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.NETCore.App" TargetFrameworkVersion="2.0" DefaultVersion="2.0.0" LatestVersion="2.0.9"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.NETCore.App" TargetFrameworkVersion="2.1" DefaultVersion="2.1.0" LatestVersion="2.1.6"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.NETCore.App" TargetFrameworkVersion="2.2" DefaultVersion="2.2.0" LatestVersion="2.2.0"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.NETCore.App" TargetFrameworkVersion="3.0" DefaultVersion="3.0.0-preview-27122-01" LatestVersion="3.0.0-preview-27122-01"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.AspNetCore.App" TargetFrameworkVersion="2.1" DefaultVersion="2.1.1" LatestVersion="2.1.6"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.AspNetCore.All" TargetFrameworkVersion="2.1" DefaultVersion="2.1.1" LatestVersion="2.1.6"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.AspNetCore.App" TargetFrameworkVersion="2.2" DefaultVersion="2.2.0" LatestVersion="2.2.0"/>
+    <ImplicitPackageReferenceVersion Include="Microsoft.AspNetCore.All" TargetFrameworkVersion="2.2" DefaultVersion="2.2.0" LatestVersion="2.2.0"/>
+
+    
+    <KnownFrameworkReference Include="Microsoft.WindowsDesktop.App"
+                              TargetFramework="netcoreapp3.0"
+                              RuntimeFrameworkName="Microsoft.WindowsDesktop.App"
+                              DefaultRuntimeFrameworkVersion="3.0.0-alpha-27128-4"
+                              LatestRuntimeFrameworkVersion="3.0.0-alpha-27128-4"
+                              TargetingPackName="Microsoft.WindowsDesktop.App"
+                              TargetingPackVersion="3.0.0-alpha-27128-4"
+                              />
+
+    <KnownFrameworkReference Include="Microsoft.AspNetCore.App"
+                              TargetFramework="netcoreapp3.0"
+                              RuntimeFrameworkName="Microsoft.AspNetCore.App"
+                              DefaultRuntimeFrameworkVersion="3.0.0-preview-18579-0056"
+                              LatestRuntimeFrameworkVersion="3.0.0-preview-18579-0056"
+                              TargetingPackName="Microsoft.AspNetCore.App"
+                              TargetingPackVersion="3.0.0-preview-18579-0056"
+                              />
+  </ItemGroup>
+</Project>

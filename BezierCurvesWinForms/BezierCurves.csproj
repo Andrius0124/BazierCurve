@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BezierCurve, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\BezierCurve\bin\Debug\netcoreapp2.1\BezierCurve.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

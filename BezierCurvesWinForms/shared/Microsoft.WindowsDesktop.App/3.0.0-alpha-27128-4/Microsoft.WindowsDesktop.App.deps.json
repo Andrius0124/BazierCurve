@@ -1,0 +1,244 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0/win-x64",
+    "signature": "39b6c49f7ebf7441d843b3ab34c2d3baaa2c2bed"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {},
+    ".NETCoreApp,Version=v3.0/win-x64": {
+      "runtime.win-x64.Microsoft.WindowsDesktop.App/3.0.0-alpha-27128-4": {
+        "runtime": {
+          "runtimes/win-x64/lib/netcoreapp3.0/Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationCore-CommonResources.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework-SystemCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework-SystemData.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework-SystemDrawing.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework-SystemXml.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework-SystemXmlLinq.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework.Aero.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework.Aero2.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework.AeroLite.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework.Classic.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework.Luna.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework.Royale.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/PresentationUI.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/ReachFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.CodeDom.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Design.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.DirectoryServices.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Drawing.Design.Primitives.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.18.56305"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Drawing.Design.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.IO.FileSystem.AccessControl.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Media.SoundPlayer.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Printing.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
+            "assemblyVersion": "4.3.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Threading.AccessControl.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Windows.Controls.Ribbon.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.18.57103"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Windows.Forms.Design.Editors.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Windows.Forms.Design.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Windows.Forms.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "1.0.18.56604"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Windows.Input.Manipulations.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Windows.Presentation.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/System.Xaml.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.18.56202"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/UIAutomationClient.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/UIAutomationClientSideProviders.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/UIAutomationProvider.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/UIAutomationTypes.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/WindowsBase.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.0/WindowsFormsIntegration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.27128.4"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/PenImc_cor3.dll": {
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/native/PresentationNative_cor3.dll": {
+            "fileVersion": "4.8.27128.4"
+          },
+          "runtimes/win-x64/native/wpfgfx_cor3.dll": {
+            "fileVersion": "4.8.27128.4"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "runtime.win-x64.Microsoft.WindowsDesktop.App/3.0.0-alpha-27128-4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AdvEZv3FdNbzhLRTGFoKaenfEU0oUV+WDc4j/58WaTpIwiLB4zvjdgOHYgm5aeMh8S8Q+iiOnPnlShJWHglfqg==",
+      "path": "runtime.win-x64.microsoft.windowsdesktop.app/3.0.0-alpha-27128-4",
+      "hashPath": "runtime.win-x64.microsoft.windowsdesktop.app.3.0.0-alpha-27128-4.nupkg.sha512"
+    }
+  }
+}
