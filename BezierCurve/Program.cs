@@ -20,7 +20,7 @@ namespace BezierCurve
             Console.WriteLine("Enter start point control:");
             bezierCurve.Curve.StartPontControl = new Vector2(Convert.ToSingle(Console.ReadLine()),Convert.ToSingle(Console.ReadLine()));
 
-            Console.WriteLine("Enter start point control:");
+            Console.WriteLine("Enter end point control:");
             bezierCurve.Curve.EndPointControl = new Vector2(Convert.ToSingle(Console.ReadLine()),Convert.ToSingle(Console.ReadLine()));
 
             
